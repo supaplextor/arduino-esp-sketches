@@ -16,4 +16,4 @@ WiFi.softAP(Artless plume-puckered foot-licker","");
 <br />
 <br />
 <br />
-<img src="esp8266/ap-insults.png" />
+<img src="https://raw.githubusercontent.com/supaplextor/arduino-esp-sketches/master/esp8266/ap-insults.png" />
