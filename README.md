@@ -1,2 +1,2 @@
 # arduino-esp-sketches
-Tidy little esp8266 sketches
+Tidy little collection of esp8266, esp32 sketches
