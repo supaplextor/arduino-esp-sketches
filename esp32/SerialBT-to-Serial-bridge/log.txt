@@ -1,0 +1,21 @@
+Added some syslog output to an external server.
+Jul  3 10:20:49 esp32 bt-serial-io Probing for ELM327 on BT Serial...
+Jul  3 10:20:49 esp32 bt-serial-io Reset to default (atz)
+Jul  3 10:20:49 esp32 bt-serial-io Disable echo
+Jul  3 10:20:49 esp32 bt-serial-io Alternate chip id/version
+Jul  3 10:21:27 esp32 ttyUSB0-io foo = DEBUG_PORT.available(); = (4)
+Jul  3 10:21:27 esp32 ttyUSB0-io char c = DEBUG_PORT.read(); = (a)
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(a) = (0) !!!
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(a) = (0)
+Jul  3 10:21:27 esp32 ttyUSB0-io foo = DEBUG_PORT.available(); = (3)
+Jul  3 10:21:27 esp32 ttyUSB0-io char c = DEBUG_PORT.read(); = (t)
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(t) = (0) !!!
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(t) = (0)
+Jul  3 10:21:27 esp32 ttyUSB0-io foo = DEBUG_PORT.available(); = (2)
+Jul  3 10:21:27 esp32 ttyUSB0-io char c = DEBUG_PORT.read(); = (z)
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(z) = (0) !!!
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(z) = (0)
+Jul  3 10:21:27 esp32 ttyUSB0-io foo = DEBUG_PORT.available(); = (1)
+Jul  3 10:21:27 esp32 ttyUSB0-io char c = DEBUG_PORT.read(); = (#015)
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(#015) = (0) !!!
+Jul  3 10:21:27 esp32 bt-serial-io int b = ELM_PORT.write(#015) = (0)
