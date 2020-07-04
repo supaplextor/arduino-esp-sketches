@@ -1,0 +1,32 @@
+11:22:41.234 -> [E][BluetoothSerial.cpp:784] isReady(): BT is not initialized. Call begin() first
+11:22:41.698 -> [I][BluetoothSerial.cpp:510] _init_bt(): device name set
+11:22:41.698 -> [I][BluetoothSerial.cpp:118] btSetPin(): pin set
+11:22:41.698 -> Attempting to connect to ELM327...
+11:22:41.698 -> [I][BluetoothSerial.cpp:225] esp_spp_cb(): ESP_SPP_INIT_EVT
+11:22:41.698 -> [I][BluetoothSerial.cpp:702] connect(): master : remoteName
+11:22:41.732 -> [I][BluetoothSerial.cpp:379] esp_bt_gap_cb(): ESP_BT_GAP_DISC_STATE_CHANGED_EVT
+11:22:42.595 -> [I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+11:22:42.628 -> [I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+11:22:42.628 -> [I][BluetoothSerial.cpp:336] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT : EIR : OBDII : 5
+11:22:42.628 -> [I][BluetoothSerial.cpp:379] esp_bt_gap_cb(): ESP_BT_GAP_DISC_STATE_CHANGED_EVT
+11:22:43.624 -> [I][BluetoothSerial.cpp:290] esp_spp_cb(): ESP_SPP_DISCOVERY_COMP_EVT
+11:22:43.624 -> [I][BluetoothSerial.cpp:292] esp_spp_cb(): ESP_SPP_DISCOVERY_COMP_EVT: spp connect to remote
+11:22:43.624 -> [I][BluetoothSerial.cpp:314] esp_spp_cb(): ESP_SPP_CL_INIT_EVT
+11:22:43.690 -> [I][BluetoothSerial.cpp:247] esp_spp_cb(): ESP_SPP_CLOSE_EVT
+30 seconds later???!!!!
+11:23:13.694 -> Connected to ELM327
+11:23:13.694 -> Ensure your serial monitor line ending is set to 'Carriage Return'
+11:23:13.727 -> Type and send commands/queries to your ELM327 through the serial monitor
+11:23:13.727 -> 
+11:23:28.666 -> A
+11:23:28.666 -> wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+11:23:28.700 -> T
+11:23:28.700 -> wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+11:23:28.700 ->  
+11:23:28.700 -> wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+11:23:28.733 -> Z
+11:23:28.733 -> wrote 0 byte(s) (Z) to ELM_PORT (SerialBT)
+11:23:28.733 -> 
+
+11:23:28.766 -> wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
