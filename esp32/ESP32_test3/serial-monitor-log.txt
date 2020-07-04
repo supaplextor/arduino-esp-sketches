@@ -1,0 +1,83 @@
+Attempting to connect to ELM327...
+Connected to ELM327
+Ensure your serial monitor line ending is set to 'Carriage Return'
+Type and send commands/queries to your ELM327 through the serial monitor
+
+A
+wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+T
+wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+ 
+wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+Z
+wrote 0 byte(s) (Z) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+a
+wrote 0 byte(s) (a) to ELM_PORT (SerialBT)
+t
+wrote 0 byte(s) (t) to ELM_PORT (SerialBT)
+ 
+wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+z
+wrote 0 byte(s) (z) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+A
+wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+T
+wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+ 
+wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+Z
+wrote 0 byte(s) (Z) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+A
+wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+T
+wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+ 
+wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+I
+wrote 0 byte(s) (I) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
+A
+wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+T
+wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+ 
+wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+R
+wrote 0 byte(s) (R) to ELM_PORT (SerialBT)
+V
+wrote 0 byte(s) (V) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
