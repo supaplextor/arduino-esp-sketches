@@ -1,0 +1,37 @@
+11:42:19.711 -> [E][BluetoothSerial.cpp:784] isReady(): BT is not initialized. Call begin() first
+11:42:20.175 -> [I][BluetoothSerial.cpp:510] _init_bt(): device name set
+11:42:20.175 -> [I][BluetoothSerial.cpp:118] btSetPin(): pin set
+11:42:20.175 -> Attempting to connect to ELM327...
+11:42:20.175 -> [I][BluetoothSerial.cpp:225] esp_spp_cb(): ESP_SPP_INIT_EVT
+11:42:20.175 -> [I][BluetoothSerial.cpp:702] connect(): master : remoteName
+11:42:20.208 -> [I][BluetoothSerial.cpp:379] esp_bt_gap_cb(): ESP_BT_GAP_DISC_STATE_CHANGED_EVT
+11:42:20.937 -> [I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+11:42:20.937 -> [I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+11:42:21.800 -> [I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+11:42:21.833 -> [I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+11:42:22.264 -> [I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+11:42:22.264 -> [I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+11:42:25.714 -> [I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+11:42:25.748 -> [I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+11:42:25.748 -> [I][BluetoothSerial.cpp:336] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT : EIR : OBDII : 5
+11:42:25.748 -> [I][BluetoothSerial.cpp:379] esp_bt_gap_cb(): ESP_BT_GAP_DISC_STATE_CHANGED_EVT
+11:42:28.137 -> [I][BluetoothSerial.cpp:290] esp_spp_cb(): ESP_SPP_DISCOVERY_COMP_EVT
+11:42:28.137 -> [I][BluetoothSerial.cpp:292] esp_spp_cb(): ESP_SPP_DISCOVERY_COMP_EVT: spp connect to remote
+11:42:28.137 -> [I][BluetoothSerial.cpp:314] esp_spp_cb(): ESP_SPP_CL_INIT_EVT
+11:42:28.203 -> [I][BluetoothSerial.cpp:247] esp_spp_cb(): ESP_SPP_CLOSE_EVT
+11:42:52.197 -> Connected to ELM327
+11:42:52.197 -> Ensure your serial monitor line ending is set to 'Carriage Return'
+11:42:52.197 -> Type and send commands/queries to your ELM327 through the serial monitor
+11:42:52.197 -> 
+11:43:35.397 -> A
+11:43:35.397 -> wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+11:43:35.397 -> T
+11:43:35.397 -> wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+11:43:35.430 ->  
+11:43:35.430 -> wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+11:43:35.430 -> Z
+11:43:35.430 -> wrote 0 byte(s) (Z) to ELM_PORT (SerialBT)
+11:43:35.463 -> 
+
+11:43:35.463 -> wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
