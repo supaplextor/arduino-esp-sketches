@@ -81,3 +81,51 @@ wrote 0 byte(s) (V) to ELM_PORT (SerialBT)
 
 wrote 0 byte(s) (
 ) to ELM_PORT (SerialBT)
+
+
+-----------------------------
+
+ets Jun  8 2016 00:22:57
+
+rst:0x1 (POWERON_RESET),boot:0x13 (SPI_FAST_FLASH_BOOT)
+configsip: 0, SPIWP:0xee
+clk_drv:0x00,q_drv:0x00,d_drv:0x00,cs0_drv:0x00,hd_drv:0x00,wp_drv:0x00
+mode:DIO, clock div:1
+load:0x3fff0018,len:4
+load:0x3fff001c,len:1044
+load:0x40078000,len:8896
+load:0x40080400,len:5816
+entry 0x400806ac
+[E][BluetoothSerial.cpp:784] isReady(): BT is not initialized. Call begin() first
+[I][BluetoothSerial.cpp:510] _init_bt(): device name set
+[I][BluetoothSerial.cpp:118] btSetPin(): pin set
+Attempting to connect to ELM327...
+[I][BluetoothSerial.cpp:225] esp_spp_cb(): ESP_SPP_INIT_EVT
+[I][BluetoothSerial.cpp:702] connect(): master : remoteName
+[I][BluetoothSerial.cpp:379] esp_bt_gap_cb(): ESP_BT_GAP_DISC_STATE_CHANGED_EVT
+[I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+[I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+[I][BluetoothSerial.cpp:327] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT
+[I][BluetoothSerial.cpp:329] esp_bt_gap_cb(): Scanned device: 00:1d:a5:68:98:8c
+[I][BluetoothSerial.cpp:336] esp_bt_gap_cb(): ESP_BT_GAP_DISC_RES_EVT : EIR : OBDII : 5
+[I][BluetoothSerial.cpp:379] esp_bt_gap_cb(): ESP_BT_GAP_DISC_STATE_CHANGED_EVT
+[I][BluetoothSerial.cpp:290] esp_spp_cb(): ESP_SPP_DISCOVERY_COMP_EVT
+[I][BluetoothSerial.cpp:292] esp_spp_cb(): ESP_SPP_DISCOVERY_COMP_EVT: spp connect to remote
+[I][BluetoothSerial.cpp:314] esp_spp_cb(): ESP_SPP_CL_INIT_EVT
+[I][BluetoothSerial.cpp:247] esp_spp_cb(): ESP_SPP_CLOSE_EVT
+Connected to ELM327
+Ensure your serial monitor line ending is set to 'Carriage Return'
+Type and send commands/queries to your ELM327 through the serial monitor
+
+A
+wrote 0 byte(s) (A) to ELM_PORT (SerialBT)
+T
+wrote 0 byte(s) (T) to ELM_PORT (SerialBT)
+ 
+wrote 0 byte(s) ( ) to ELM_PORT (SerialBT)
+Z
+wrote 0 byte(s) (Z) to ELM_PORT (SerialBT)
+
+
+wrote 0 byte(s) (
+) to ELM_PORT (SerialBT)
