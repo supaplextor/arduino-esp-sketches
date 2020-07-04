@@ -16,6 +16,7 @@ void setup()
   */
 
   DEBUG_PORT.begin(115200);
+
   ELM_PORT.setPin("1234");
   ELM_PORT.begin("ESP32test", true);
 
@@ -33,6 +34,17 @@ void setup()
   DEBUG_PORT.println();
 }
 
+
+void loop1() {
+  if (Serial.available()) {
+    SerialBT.write(Serial.read());
+  }
+  if (SerialBT.available()) {
+    Serial.write(SerialBT.read());
+  }
+  delay(20);
+}
+
 void loop()
 {
   if(DEBUG_PORT.available())
@@ -44,7 +56,7 @@ void loop()
     DEBUG_PORT.println();
     DEBUG_PORT.printf("wrote %d byte(s) (%c) to ELM_PORT (SerialBT)", w, c);
     DEBUG_PORT.println();
-//    ELM_PORT.flush();
+    ELM_PORT.flush();
   }
 
   if(ELM_PORT.available())
@@ -56,4 +68,6 @@ void loop()
 
     DEBUG_PORT.write(c);
   }
+
+  delay(20);
 }
