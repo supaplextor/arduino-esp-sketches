@@ -1,0 +1,21 @@
+Jul 16 22:46:32 esp32 bt-serial-io <U+FEFF>Connected to ELM327 (bluetooth layer)
+Jul 16 22:46:32 esp32 bt-serial-io <U+FEFF>Probing for ELM327 on BT Serial...
+Jul 16 22:46:32 esp32 bt-serial-io <U+FEFF>Reset to default (atz)
+Jul 16 22:46:32 esp32 bt-serial-io <U+FEFF>Disable echo
+Jul 16 22:46:32 esp32 bt-serial-io <U+FEFF>Alternate chip id/version
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>foo = DEBUG_PORT.available(); = (1)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>char c = DEBUG_PORT.read(); = (a)
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(a) = (0) !!!
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(a) = (0)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>foo = DEBUG_PORT.available(); = (1)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>char c = DEBUG_PORT.read(); = (t)
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(t) = (0) !!!
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(t) = (0)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>foo = DEBUG_PORT.available(); = (1)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>char c = DEBUG_PORT.read(); = (z)
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(z) = (0) !!!
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(z) = (0)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>foo = DEBUG_PORT.available(); = (1)
+Jul 16 22:46:38 esp32 ttyUSB0-io <U+FEFF>char c = DEBUG_PORT.read(); = (#015)
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(#015) = (0) !!!
+Jul 16 22:46:38 esp32 bt-serial-io <U+FEFF>int b = ELM_PORT.write(#015) = (0)
