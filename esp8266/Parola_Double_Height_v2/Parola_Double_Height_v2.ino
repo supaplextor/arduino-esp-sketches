@@ -27,7 +27,7 @@
 #include "Font_Data.h"
 
 // Turn debugging on and off
-#define DEBUG 0
+#define DEBUG 1
 
 #if DEBUG
 #define PRINTS(s)   { Serial.print(F(s)); }
