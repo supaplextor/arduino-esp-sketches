@@ -5,7 +5,8 @@
  * I think this is based on the OEM (M5Stack) sketch, but I'm not sure how it ended up in Arduino IDE.
  * Changed finger.cpp and this ino to include M5StickC; Adjust Serial2.begin(...)
  * Should work on any grove port as long as pin numbers are updated. Eg, should work on M5Atom (edit Serial2.begin)
- * (C) 2020-Nov-30 https://github.com/supaplextor - No Warranty express or implied.
+ * (C) 2020-Nov-30 https://github.com/supaplextor/arduino-esp-sketches/tree/master/esp32/FINGER_FPC1020A 
+ * - No Warranty express or implied.
  * 
  */
 
