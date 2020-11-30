@@ -1,0 +1,59 @@
+Matching
+No Such User
+Matching
+Success; user [2]
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Fingerprint Typing
+Success
+Matching
+Success; user [3]
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+No Such User
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Matching
+Success; user [3]
+Fingerprint Typing
+Timeout
+M5StickC initializing...OK
+Finger example
+Delete All User Successful
